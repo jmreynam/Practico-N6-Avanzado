@@ -1,11 +1,23 @@
-
 Explica con tus palabras, las siguientes preguntas.
 
 - Que es un numero Natural?
 
+Los números naturales se definen como todos aquellos números mayores a cero, incluyendo al cero, sin decimales.
+
 - Que es una estructura de datos?
+
+Una estructura de datos consiste en la organización de los datos al momento de programar. Se trata de encontrar formas particulares de organizar datos para que los mismos puedan ser utilizados de manera eficiente.
 
 - Que es map(), reduce(), filter() y ForEacH() 
 
+map() es un método que permite iterar, transformar o manipular un array utilizando una funcion callback.
+reduce() permite devolver un unico valor a partir de operar sobre cada elemento de un array al ejecutar una funcion callback.
+filter() a partir de este método se crea un array nuevo con todos los elementos de un array dado que cumpla con determinada condición, la cual es evaluada a partir de una funcion callback que itera sobre cada elemento del array.
+forEach() es un método que permite iterar sobre un array, ejecuta una funcion callaback por cada uno de los elementos del mismo.
+
 - Explica una situacion en donde usarias cada una de las estructuras mencionadas anteriormente.
 
+map() para realizar una operación de transformación o cambio en los elementos de un array y  tener un nuevo array con la misma cantidad de elementos del array del que se partio. Por ejemplo si deseo multiplicar por un determinado valor todos los elementos del array esta seria una funcion apropiada de usar.
+reduce() este metodo seria utilizado para realizar una operacion con cada elemento del array y acumular el resultado final en un valor de retorno, lo utilizaria por ejemplo si es necesario sumar todos los valores de un array.
+filter() este metodo devuelve un array en particular de acuerdo a aquellos elementos de un array que cumplan una determinada condición, un ejemplo de uso del mismo seria para eliminar determinados valores que no se desean en un array, o reemplazarlos por otro.
+forEach() es un método que utilizaria para recorrer los elementos de un array de la misma forma que se haría con un for, evitando las variables de control propias del mismo loop for.
